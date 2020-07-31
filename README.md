@@ -16,10 +16,10 @@ socket, os, sys, subprocess, cv2, PIL(ImageGrab), struct, pickle
 # Server Side:
 socket, sys, random, string, cv2, os, pickle, struct
 # Usage of functions:
-Download a file: download filename
-Take screenshot: screenshot
-Take cam selfie: campic
-Stream webcam: webcam
-Manipulate target system directories using cd command.
-Close the connection and exit the agent: terminate
-CMD commands can be used to manipulate target system.
+1. Download a file: download filename
+2. Take screenshot: screenshot
+3. Take cam selfie: campic
+4. Stream webcam: webcam
+5. Manipulate target system directories using cd command.
+6. Close the connection and exit the agent: terminate
+7. CMD commands can be used to manipulate target system.
