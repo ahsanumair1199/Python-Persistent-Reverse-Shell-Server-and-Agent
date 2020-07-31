@@ -3,7 +3,7 @@ This is only for Educational Purpose. Use it on your own risk and i will not be 
 # Software Requirements:
 Python3.6+ 
 It wouldn't work on lower versions of Python.
-This reverse shell has following functions:
+# This reverse shell has following functions:
 1. Remotely access to command prompt of target system.
 2. Download files from target system (Note: Not media files i.e MP4).
 3. Taking screeshot of target system's desktop using pillow library at agent end.
@@ -15,9 +15,6 @@ transferring media files can be done by implementing same function as used in tr
 socket, os, sys, subprocess, cv2, PIL(ImageGrab), struct, pickle
 # Server Side:
 socket, sys, random, string, cv2, os, pickle, struct
-# You must have all these modules before using the code.
-You can convert it into by using pyinstaller or cx_freeze.
-This shell can be used over WAN.
 # Usage of functions:
 Download a file: download filename
 Take screenshot: screenshot
