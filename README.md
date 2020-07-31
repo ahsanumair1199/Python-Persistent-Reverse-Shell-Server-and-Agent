@@ -5,8 +5,8 @@ Python3.6+
 It wouldn't work on lower versions of Python.
 # This reverse shell has following functions:
 1. Remotely access to command prompt of target system.
-2. Download files from target system (Note: Not media files i.e MP4).
-3. Taking screeshot of target system's desktop using pillow library at agent end.
+2. Download files from target system (Note: Not working for media files i.e MP4).
+3. Taking screenshot of target system's desktop using pillow library at agent end.
 4. Taking webcam photo using OpenCV module.
 5. Streaming webcam of target system and sending stream to Server through second socket.
 transferring media files can be done by implementing same function as used in transferring webcam stream to server using OpenCV module, because this is not a big project but it can be extended from anyone, you can contribute in it because it is an open source.
