@@ -8,7 +8,7 @@ It wouldn't work on lower versions of Python.
 2. Download files from target system (Note: Not working for media files i.e MP4).
 3. Taking screenshot of target system's desktop using pillow library at agent end.
 4. Taking webcam photo using OpenCV module.
-5. Streaming webcam of target system and sending stream to Server through second socket.
+5. Streaming webcam of target system and sending stream to Server through second socket (Note: press 'q' to quit the stream and streaming window).
 transferring media files can be done by implementing same function as used in transferring webcam stream to server using OpenCV module, because this is not a big project but it can be extended from anyone, you can contribute in it because it is an open source.
 # The Module Requirements:
 # Agent Side:
