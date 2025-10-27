@@ -1,5 +1,5 @@
 # Read this before using.
-This is only for Educational Purpose. Use it on your own risk and i will not be responsible for your misuse because this is an open source code.
+This is only for Educational Purpose.
 # Software Requirements:
 Python3.6+ 
 It wouldn't work on lower versions of Python.
